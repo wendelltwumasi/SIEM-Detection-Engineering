@@ -14,3 +14,6 @@ To leverage SPL (Splunk Processing Language) to transform raw Windows Event Logs
   | stats count as FailedAttempts by Account_Name 
   | where FailedAttempts > 10
 ![Failed Login Statistics](lab2_stats.png)
+## Evidence
+![Splunk Search Query](lab2_splunk_query.png)
+![Failed Login Statistics](lab2_splunk_results.png)
