@@ -16,6 +16,7 @@ disabled = 0
 start_from = oldest
 current_only = 0
 index = main
+```
 ![Validation of Service Setup](lab1_config.png)
 ## Evidence
 ![Validation of Service Setup](lab1_config.png)
