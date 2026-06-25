@@ -13,4 +13,3 @@ To leverage SPL (Splunk Processing Language) to transform raw Windows Event Logs
   index=main source="WinEventLog:Security" EventCode=4625 
   | stats count as FailedAttempts by Account_Name 
   | where FailedAttempts > 10
-![Failed Login Statistics](lab2_stats.png)
