@@ -17,3 +17,6 @@ start_from = oldest
 current_only = 0
 index = main
 ![Validation of Service Setup](lab1_config.png)
+## Evidence
+![Validation of Service Setup](lab1_config.png)
+![Service Status](lab1_service_status.png)
